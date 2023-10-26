@@ -1,0 +1,10 @@
+I, [2023-10-26T00:13:56.397985 #63565]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.5.0)
+I, [2023-10-26T00:13:56.970113 #63565]  INFO -- Kitchen: -----> Destroying <default-Ubuntu>...
+I, [2023-10-26T00:13:56.971055 #63565]  INFO -- Kitchen: [Docker] Destroying Docker container 15f1cac0f949566c4ebc8e5ae33b101591306b4b91f9179284fee5f13a3a7d99
+I, [2023-10-26T00:13:57.006682 #63565]  INFO -- Kitchen: UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+I, [2023-10-26T00:13:57.008133 #63565]  INFO -- Kitchen: root                60513               60489               0                   00:08               ?                   00:00:00            sshd: /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=no -o PasswordAuthentication=yes -o UsePrivilegeSeparation=no -o PidFile=/tmp/sshd.pid [listener] 0 of 10-100 startups
+I, [2023-10-26T00:13:57.008182 #63565]  INFO -- Kitchen: root                63536               60513               0                   00:13               ?                   00:00:00            nginx: master process /usr/sbin/nginx
+I, [2023-10-26T00:13:57.008221 #63565]  INFO -- Kitchen: www-data            63537               63536               0                   00:13               ?                   00:00:00            nginx: worker process
+I, [2023-10-26T00:13:58.634746 #63565]  INFO -- Kitchen: 15f1cac0f949566c4ebc8e5ae33b101591306b4b91f9179284fee5f13a3a7d99
+I, [2023-10-26T00:14:02.242389 #63565]  INFO -- Kitchen: 15f1cac0f949566c4ebc8e5ae33b101591306b4b91f9179284fee5f13a3a7d99
+I, [2023-10-26T00:14:02.255015 #63565]  INFO -- Kitchen: -----> Test Kitchen is finished. (0m5.86s)
